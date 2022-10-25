@@ -1,0 +1,28 @@
+.customTabs_item .active{
+    color:var(--main-color) !important;
+
+}
+.customTabs_item {
+    font-weight: bold !important;
+}
+/* Cards */
+.customTab {
+    height: 100% !important;
+    max-width: 350px !important;
+    box-shadow: 0 0 48px 0 rgba(4,6,4,0.08) !important;
+    border-radius: 5px;
+    overflow:hidden;
+    outline-width: 0px !important;
+
+}
+ .customCard_image{
+    height: 200px !important;
+}
+.customCard_caption{
+    color:darkslategray !important;
+    font-weight: 400;
+    
+}
+.projectDialog_description:hover{
+    color:var(--main-color)
+}

@@ -1,0 +1,65 @@
+.aboutme_text{
+    color:darkslategray !important;
+    font:smaller !important;
+    line-height: 22px !important;
+    white-space: pre-line !important;
+}
+.timeline_title{
+    font-size: 16px;
+    font-weight: 500;
+}
+.timeline_date{
+    color:darkslategray;
+
+}
+.timeline_description{
+    color:gray;
+    font-size: small;
+    margin-top:6px
+}
+
+/* Services */
+.service{
+    height: 100% ;
+    text-align: center ;
+    
+}
+.service .service_title{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 35px !important;
+    text-align: center !important;
+}
+.service .service_description{
+    color:#9999 !important;
+    border-color: var(--main-color) !important;
+    margin-right:5px !important;
+    text-align: center !important;
+}
+
+.service_icon > .MuiSvgIcon-root {
+    overflow: visible;
+    font-size: 46px !important;
+    margin-left:0 !important;
+    font-weight: 300 !important;
+    color:darkslategray !important;
+    
+}
+.contactInfo_item{
+    font-size: 14px !important;
+    color:#787878;
+}
+.contactInfo_item > span{
+    color:black;
+    font-weight: 500;
+}
+.contactInfo_socialsContainer{
+    margin-top:15px;
+    
+}
+.contactInfo_social > a > .MuiSvgIcon-root{
+    font-size: 16px !important;
+    margin-right: 10px;
+    color:black;
+
+}
