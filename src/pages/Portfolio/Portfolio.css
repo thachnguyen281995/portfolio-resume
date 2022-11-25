@@ -17,6 +17,7 @@
 }
  .customCard_image{
     height: 200px !important;
+    /* background-size:contain !important;    */
 }
 .customCard_caption{
     color:darkslategray !important;
@@ -25,4 +26,14 @@
 }
 .projectDialog_description:hover{
     color:var(--main-color)
+}
+.customCard_title{
+    color:#1976d2;
+    font-weight: bold !important;
+}
+.projectDialog_icon{
+    text-decoration: none;
+}
+.icon{
+    padding: 0 12px;
 }

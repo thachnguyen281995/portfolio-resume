@@ -102,45 +102,47 @@ export default{
             description:"This is my project .Please fill it in",
             links:[
                 {link : "https://www.google.com",icon:<YouTube/>},
-                {link : "https://www.google.com",icon:<GitHubIcon/>},
-                {link : "https://www.google.com",icon:<Language/>}
+                // {link : "https://www.google.com",icon:<GitHubIcon/>},
+                // {link : "https://www.google.com",icon:<Language/>}
             ]
         },
         {
-            tag:"Python",
+            tag:"Tailwindcss",
             image:"https://img.freepik.com/premium-vector/programming-code-made-with-binary-code-coding-hacker-background-digital-binary-data-streaming-digital-code_127544-778.jpg?w=2000",
             title:"Project 2",
             caption:"A short description",
             description:"This is my project .Please fill it in",
             links:[
                 {link : "https://www.google.com",icon:<YouTube/>},
-                {link : "https://www.google.com",icon:<GitHubIcon/>},
-                {link : "https://www.google.com",icon:<Language/>}
+                // {link : "https://www.google.com",icon:<GitHubIcon/>},
+                // {link : "https://www.google.com",icon:<Language/>}
             ]
         },
         {
-            tag:"Java",
-            image:"https://img.freepik.com/premium-vector/purple-web-development-background_76964-167.jpg?w=2000",
-            title:"Project 3",
-            caption:"A short description",
-            description:"This is my project .Please fill it in",
+            tag:"HTML CSS JS",
+            image:"https://thachnguyen281995.github.io/Caphe/img%20happycup/home5.jpg",
+            title:"Website Template Responsive",
+            // caption:"A short description",
+            description:"Happy Cup Coffee",
             links:[
-                {link : "https://www.google.com",icon:<YouTube/>},
-                {link : "https://www.google.com",icon:<GitHubIcon/>},
-                {link : "https://www.google.com",icon:<Language/>}
+                {link : "https://thachnguyen281995.github.io/Caphe/?fbclid=IwAR3JpPRNyVnIc1KbslOJx_dNcjat928DNIGbx6Tt3ZvImpm6nFYLfYRRGnQ",icon:<GitHubIcon/>},
+                // {link : "https://www.google.com",icon:<GitHubIcon/>},
+                // {link : "https://www.google.com",icon:<Language/>}
             ]
         },
         {
-            tag:"Java",
-            image:"https://img.freepik.com/premium-vector/purple-web-development-background_76964-167.jpg?w=2000",
-            title:"Project 3",
-            description:"This is my project .Please fill it in",
+            tag:"HTML CSS JS",
+            image:"https://github.com/thachnguyen281995/WeatherApp/blob/master/img/cold.png?raw=true",
+            title:"Website Template Responsive",
+            // caption:"A short description",
+            description:"App Weather",
             links:[
-                {link : "https://www.google.com",icon:<YouTube/>},
-                {link : "https://www.google.com",icon:<GitHubIcon/>},
-                {link : "https://www.google.com",icon:<Language/>}
+                {link : "https://github.com/thachnguyen281995/WeatherApp/blob/master/img/cold.png?raw=true",icon:<GitHubIcon/>},
+                // {link : "https://www.google.com",icon:<GitHubIcon/>},
+                // {link : "https://www.google.com",icon:<Language/>}
             ]
-        }
+        },
+      
     ]
     
 }

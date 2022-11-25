@@ -122,18 +122,16 @@ const Portfolio = () => {
           
           <img src={projectDialog.image} alt="" className="projectDialog_image" />
 
+          
           <DialogContent>
-            <ButtonBase className="projectDialog_description">
-              {projectDialog.description}
-            </ButtonBase>
-          </DialogContent>
-          <DialogActions className="projectDialog_actions">
             {projectDialog?.links?.map((link) => (
               <a href={link.link} className="projectDialog_icon">
-                {link.icon}
+                <ButtonBase className="projectDialog_description">
+              {projectDialog.description} <span className="icon">{link.icon}</span>
+            </ButtonBase>
               </a>
             ))}
-          </DialogActions>
+          </DialogContent>
         </Dialog>
       </Grid>
     </Grid>
