@@ -12,7 +12,6 @@
 }
 .skill-bars{
   padding: 25px 30px;
-  width: 600px;
   background: #fff;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
   border-radius: 10px;
@@ -131,3 +130,13 @@
   content: "75%";
 }
 
+@media screen and (max-width: 425px) {
+  .skill-bars{
+    max-width: 380px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .skill-bars{
+    max-width: 330px;
+  }
+}

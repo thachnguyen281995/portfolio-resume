@@ -13,7 +13,7 @@ body {
 }
 html ,a,span,p,h6{
   font-family: 'IBM Plex Sans', sans-serif !important ;
-  
+  text-decoration: none !important;
 }
 
 

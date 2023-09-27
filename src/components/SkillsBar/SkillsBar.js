@@ -2,7 +2,7 @@ import React from "react";
 import './SkillsBar.css'
 function SkillsBar() {
   return (
-    <div >
+    <>
       <div class="skill-bars">
         <div class="bar">
           <div class="info">
@@ -45,7 +45,7 @@ function SkillsBar() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

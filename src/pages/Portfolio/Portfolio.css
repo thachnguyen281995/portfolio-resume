@@ -17,7 +17,7 @@
 }
  .customCard_image{
     height: 200px !important;
-    /* background-size:contain !important;    */
+    background-size:contain !important;   
 }
 .customCard_caption{
     color:darkslategray !important;
@@ -36,4 +36,7 @@
 }
 .icon{
     padding: 0 12px;
+}
+.css-3f6ufr-MuiGrid-root>.MuiGrid-item{
+    padding-left: 25px !important;
 }

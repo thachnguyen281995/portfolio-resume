@@ -22,46 +22,41 @@ export default{
             icon:<GitHubIcon/>,   
         },
         LinkedIn:{
-            link:"/",
+            link:"https://www.linkedin.com/in/thach-nguyen-a78375230/",
             text:"LinkedIn",
             icon:<LinkedInIcon/>,   
         },
       
     },
-    about:"Good day ,everyone! I'm Nguyen Ngoc Thach , I'm 27 years old ,I'm Fresher Front-end Developer . I have six months experience . I'm often praised for my creativity and independent working skills . I always put my heart and soul into every single website that i develop. I guess that's all . I have to share about myself . Thank you for reading",
+    about:"Good day ,everyone! I'm Nguyen Ngoc Thach , I'm 29 years old ,I'm Fresher Front-end Developer . I have six months experience . I'm often praised for my creativity and independent working skills . I always put my heart and soul into every single website that i develop. I guess that's all . I have to share about myself . Thank you for reading",
     education:[
         {
-            title:"Education",
-            date:"2021 - Present",
-            description:"Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+            title:"Responsive Web Design",
+            date:"2021 - 2022",
+            description:"https://www.freecodecamp.org/certification/fcce7e60713-b296-4718-b0ff-81d3d4ee7e9f/responsive-web-design "
         },
         {
-            title:"Education 2",
-            date:"2018 - Present",
-            description:"Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
-        },
-        {
-            title:"Education 3",
-            date:"2018 - Present",
-            description:"Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+            title:"JavaScript Algorithms and Data Structure ",
+            date:"2022",
+            description:"https://freecodecamp.org/certification/fcce7e60713-b296-4718-b0ff-81d3d4ee7e9f/javascript-algorithms-and-data-structures "
         },
     ],
     experience:[
         {
-            title:"Work 1",
-            date:"2018 - Present",
-            description:"Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+            title:"Freelancer",
+            date:"10/2022 - 3/2023",
+            description:"Công ty Công Nghệ CodeBy  (Daykemit.edu.vn)"
         },
-        {
-            title:"Work 2",
-            date:"2018 - Present",
-            description:"Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
-        },
-        {
-            title:"Work 3",
-            date:"2018 - Present",
-            description:"Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
-        },
+        // {
+        //     title:"Work 2",
+        //     date:"2018 - Present",
+        //     description:"Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+        // },
+        // {
+        //     title:"Work 3",
+        //     date:"2018 - Present",
+        //     description:"Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+        // },
     ],
     services :[
         {
@@ -95,27 +90,24 @@ export default{
     ],
     portfolio: [
         {
-            tag:"React",
-            image:"https://img.freepik.com/premium-vector/purple-web-development-background_76964-167.jpg?w=2000",
-            title:"Project 1",
-            caption:"A short description",
-            description:"This is my project .Please fill it in",
+            tag:"WordPress - Flatsome",
+            image:"https://res.cloudinary.com/dgh2j7n1e/image/upload/v1695727362/nuoc-uong-dong-chai-bien-hoa-chat-luong_efjwt6.jpg",
+            title:"ngocyenlinh.com",
+            caption:"",
+            description:"Deliver water to your home",
             links:[
-                {link : "https://www.google.com",icon:<YouTube/>},
-                // {link : "https://www.google.com",icon:<GitHubIcon/>},
-                // {link : "https://www.google.com",icon:<Language/>}
+                {link : "https://ngocyenlinh.com"},
+               
             ]
         },
         {
-            tag:"Tailwindcss",
-            image:"https://img.freepik.com/premium-vector/programming-code-made-with-binary-code-coding-hacker-background-digital-binary-data-streaming-digital-code_127544-778.jpg?w=2000",
-            title:"Project 2",
-            caption:"A short description",
-            description:"This is my project .Please fill it in",
+            tag:"ReactJS - Nodejs",
+            image:"https://res.cloudinary.com/dgh2j7n1e/image/upload/v1690554942/t-gear-ecom/logo-title_izlwdz.png",
+            title:"master--fpt-ecom.netlify.app",
+            caption:"",
+            description:"Ecommerce simple personal project",
             links:[
-                {link : "https://www.google.com",icon:<YouTube/>},
-                // {link : "https://www.google.com",icon:<GitHubIcon/>},
-                // {link : "https://www.google.com",icon:<Language/>}
+                {link : "https://master--fpt-ecom.netlify.app/"},
             ]
         },
         {
@@ -131,18 +123,18 @@ export default{
             ]
         },
         {
-            tag:"HTML CSS JS",
-            image:"https://github.com/thachnguyen281995/WeatherApp/blob/master/img/cold.png?raw=true",
-            title:"Website Template Responsive",
+            tag:"WordPress - Flatsome",
+            image:"https://res.cloudinary.com/dgh2j7n1e/image/upload/v1695780966/odpu1rcl6ul2yybdpl6f.jpg",
+            title:"https://fmcgtrading.co.uk",
             // caption:"A short description",
-            description:"App Weather",
+            description:"Build an interface to supply goods and allow ordering in quantities large at the distributor level",
             links:[
-                {link : "https://github.com/thachnguyen281995/WeatherApp/blob/master/img/cold.png?raw=true",icon:<GitHubIcon/>},
+                {link : "https://fmcgtrading.co.uk"},
                 // {link : "https://www.google.com",icon:<GitHubIcon/>},
                 // {link : "https://www.google.com",icon:<Language/>}
             ]
         },
       
     ]
-    
+
 }

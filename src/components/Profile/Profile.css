@@ -37,7 +37,6 @@
     top:0;
     left:0;
     margin:-40px 10px 30px;
-
 }
 .profile_information .timeline .timeline_content{
     margin-top: 2px;
@@ -65,3 +64,9 @@
     width: 100%;
     
 }
+@media screen and (max-width: 425px) {
+    .profile{
+        padding:30px;
+        width: 100%;
+    }
+  }

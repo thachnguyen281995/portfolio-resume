@@ -40,7 +40,7 @@ const Resume = () => {
             {/* Experience */}
             <Grid item xs={12} md={6}>
               <CustomTimeLine title="Work Experience" icon={<WorkIcon />}>
-                {/* {resumeData.experience.map((item) => (
+                {resumeData.experience.map((item) => (
                   <TimelineItem>
                     <CustomTimeLineSeparator />
                     <TimelineContent className="timeline_content">
@@ -58,7 +58,7 @@ const Resume = () => {
                       </Typography>
                     </TimelineContent>
                   </TimelineItem>
-                ))} */}
+                ))}
               </CustomTimeLine>
             </Grid>
 
@@ -119,7 +119,7 @@ const Resume = () => {
         </Grid>
         <Grid className="top_30" item xs={12}>
           <Grid container>
-            <Grid item xs={12} sm={6} md={3}>
+            <Grid item xs={12} sm={12} md={12}>
               <SkillsBar />
             </Grid>
           </Grid>
@@ -127,7 +127,7 @@ const Resume = () => {
       </Grid>
       <Grid container spacing={5}className="section pt_45 pb_45">
         {/* Contact form */}
-        <Grid item xs={12} lg={7}>
+        <Grid item xs={12} lg={8}>
           <Grid container>
             <Grid item className="section_title mb_30">
               <span></span>
